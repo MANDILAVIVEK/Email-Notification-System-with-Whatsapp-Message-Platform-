@@ -6,8 +6,8 @@ import time
 import schedule
 
 # Twilio configuration
-account_sid = 'AC7aff6c2f221e608eceed18a943ff34c1'  # Replace with your Twilio Account SID
-auth_token = '760e245b34f89d66dcc4d77cdff3e2c5'      # Replace with your Twilio Auth Token
+account_sid = ''  # Replace with your Twilio Account SID
+auth_token = ''      # Replace with your Twilio Auth Token
 client = Client(account_sid, auth_token)
 twilio_whatsapp_number = 'whatsapp:+14155238886'  # Replace with your Twilio WhatsApp number
 recipient_phone_number = 'whatsapp:+91xxxxxxxxx'  # Replace with the recipient's WhatsApp number
